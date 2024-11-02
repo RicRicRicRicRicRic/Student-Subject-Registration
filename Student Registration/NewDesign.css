@@ -1,0 +1,170 @@
+/*Interface Designs*/ /*Interface Designs*/ /*Interface Designs*/
+.CentertheForms {
+    display: flex;
+    justify-content: center;
+    margin-top:10px;} 
+
+#InterfaceRegistration {
+    width: 300px; 
+    margin-right: 10px; 
+    border: 15px solid #006400; 
+    background-color: #98FB98; 
+    color: #333; 
+    text-align: center;}
+
+#RegisterStudent{
+    width: 300px; 
+    margin-right: 10px; 
+    border: 15px solid #006400; 
+    background-color: #98FB98; 
+    color: #333; 
+    text-align: center;}
+
+#StudentInformation{
+    width: 300px; 
+    margin-right: 10px; 
+    border: 15px solid #006400; 
+    background-color: #98FB98; 
+    color: #333; 
+    text-align: center;
+}
+
+
+#InterfaceSubjects {
+    width: 300px; 
+    margin-left: 10px; 
+    padding: 20px; 
+    border: 15px solid #006400; 
+    background-color: #98FB98; 
+    color: #333; 
+    text-align: center;}
+
+
+#InterfaceTable{
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #ffffff}
+#InterfaceTable th, #InterfaceTable td {
+    border: 3px solid #000000;
+    padding: 8px;
+    text-align: left;}
+
+
+.CentertheButtons {
+    display: flex;
+    justify-content: center;
+    margin-top: 1px; }
+#buttonInterface1{
+    margin-right: 30px; 
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    transition: color 0.5s;
+    display: flex;}
+#buttonInterface1:hover {
+    color: #ff0000; }
+
+#buttonInterface2{
+    margin-left: 30px; 
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    transition: color 0.5s;
+    display: flex;}
+#buttonInterface2:hover{
+    color: #ff0000; 
+}
+
+#buttonInterface3{
+    margin-left: 30px; 
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    transition: color 0.5s;
+    display: flex;}
+#buttonInterface3:hover{
+    color: #ff0000; 
+}
+
+
+/*Interface Designs*/ /*Interface Designs*/ /*Interface Designs*/
+
+/*StudentTableDesigns*/ /*StudentTableDesigns*/ /*StudentTableDesigns*/
+.StudentCenter 
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px; 
+}
+#SubjectForm
+{
+    width: 300px; 
+    margin-left: 10px; 
+    padding: 20px; 
+    border: 15px solid #006400; 
+    background-color: #98FB98; 
+    color: #333; 
+    text-align: center;
+}
+
+
+#SubjectTable{
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #ffffff}
+#SubjectTable th, #SubjectTable td {
+    border: 3px solid #000000;
+    padding: 8px;
+    text-align: left;}
+
+
+.buttonStudent {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    transition: color 0.5s;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; }
+.buttonStudent:hover {
+    color: #ff0000; }
+
+/*StudentTableDesigns*/ /*StudentTableDesigns*/ /*StudentTableDesigns*/
+
+/*LoginDesigns*/ /*LoginDesigns*/ /*LoginDesigns*/
+.LoginForm{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;}
+
+#NameAndID{
+    width: 300px; 
+    height: 300px;
+    margin-right: 10px; 
+    border: 15px solid #006400; 
+    background-color: #98FB98; 
+    color: #333; 
+    text-align: center;}
+
+/*LoginDesigns*/ /*LoginDesigns*/ /*LoginDesigns*/
+
+body {
+    background-image: url(Background2image.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;}
+
+.CenterHeading {
+        display: flex;
+        justify-content: center; 
+        align-items: center; 
+        margin: 20px; }
+
+#WebHeader {
+    color: white;
+    font-size: 50px; 
+    text-shadow: 
+    2px 2px 0 #000,  
+    3px 2px 0 #000,
+    2px 3px 0 #000,
+    3px 3px 0 #000;
+    margin-left: 20px; }
+
+
